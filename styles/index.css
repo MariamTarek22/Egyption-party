@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: rgba(214, 46, 51, 0.6);
+  scroll-behavior: auto;
+}
+body {
+}
+
+header {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/WhatsApp\ Image\ 2024-07-04\ at\ 16.06.16_9af1f3df.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+::selection {
+  background-color: var(--main-color);
+  color: white;
+}
+.content {
+  padding: 5px;
+}
+.content h1 {
+  font-size: 5rem;
+  margin-top: 300px;
+}
+.content h1,
+p {
+  text-align: center;
+}
+
+.sideBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.side {
+  width: 250px;
+  padding: 10px;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.side i {
+  position: relative;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+li a {
+  padding: 20px 0 20px 0;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+li a:hover,
+#closeButton:hover {
+  color: var(--main-color);
+}
+
+#openButton {
+  cursor: pointer;
+}
+
+#sliderDown h3 {
+  padding: 10px;
+  margin: 0;
+  background-color: rgba(214, 46, 51, 0.6);
+  cursor: pointer;
+  color: white;
+}
+
+#sliderDown div {
+  padding: 10px;
+  background-color: #ccc;
+  display: none;
+}
+#sliderDown .first {
+  display: block;
+}
+
+.counter {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/invitation-2508607__340.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 40vh;
+}
+.tim {
+  padding: 50px;
+  border: 1px solid #fff;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#contact {
+  margin-top: 100px;
+}
+#contact h2 {
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#contact p {
+  color: #777;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.social-media-item {
+  padding: 7px;
+  color: #777;
+  border: #777 1px solid;
+  transition: all 0.5s;
+  margin: 5px;
+  font-size: large;
+}
+.social-media-item:hover {
+  cursor: pointer;
+  color: white;
+  background-color:#D62E33;
+  border-color:#D62E33;
+}
+.large-bottom-padding {
+  padding-bottom: 150px;
+}
+
+.lg-padding{
+  padding-top: 150px;
+}
